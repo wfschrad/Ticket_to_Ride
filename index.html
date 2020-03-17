@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTR</title>
+    <link rel="stylesheet" href="./ttr.css">
+    <script type="module" src="./index.js"></script>
+</head>
+<body>
+    <main>
+        <h1>--------------TICKET TO RIDE--------------</h1>
+        <div id="form-holder">
+          <div>
+            <label id="start-label" for="player-num">Select Number of Players</label>
+            <select id="player-num" name="playerNum">
+                <option value="No-Entry">Number of Players</option>
+                <option value="2">2 Players</option>
+                <option value="3">3 Players</option>
+                <option value="4">4 Players</option>
+            </select>
+          </div> 
+
+          <input id="player-1-name" class="hidden" placeholder="Player 1 Name" type="text">
+          <input id="player-2-name" class="hidden" placeholder="Player 2 Name" type="text">
+          <input id="player-3-name" class="hidden" placeholder="Player 3 Name" type="text">
+          <input id="player-4-name" class="hidden" placeholder="Player 4 Name" type="text">
+          <button id="new-game" class="hidden" disabled="true">New Game</button>
+        </div>
+    </main>
+</body>
+</html>
